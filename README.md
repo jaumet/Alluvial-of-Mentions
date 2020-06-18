@@ -4,6 +4,9 @@ A minimalist SVG diagrams galler-like using panzoom.js and jquery
 USAGE:
 Just put the code as it is under a web server.
 
+DEMO:
+At the moment there is a beta version here: http://research.nualart.cat/peace/alluvial/
+
 DATA
 This distribution contain several SVG diagrams about Peace Agreements database (http://peacegreements.org). You can add your own SVG or any other image or video format. 
 
