@@ -39,10 +39,16 @@ function getlights() {
 }
 
 // toggle SVG' path view
+
 $("#a1").click(function(){
     $("path").toggle('slow');
-    $("rect").css("fill","red").css("stroke","@c3c3c3").css("width","50");
+    if ($("rect").css("fill") == "rgb(255, 0, 0)") {
+        $("rect").css("fill","white");  
+    } else {
+        $("rect").css("fill","red");  
+    }
 });
+
 
 // Menu
 $("#menu").menu({
