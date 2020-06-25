@@ -50,6 +50,7 @@ $("#a1").click(function(){
 });
 
 
+
 // Menu
 $("#menu").menu({
    position: { my: "left top", at: "right-5 top+5" },
@@ -64,7 +65,9 @@ function mysvgkit(my) {
     // SVG loading + pan&zoo2
     $('#svgfile').load('./svgs/'+my+'-.svg').delay(2000).promise().done(function(){
         
-        if (my=='99') {myz =1 } else {myz = 1}
+        if (my=='99') {myz = 1 } else {
+            myz = 1;
+        }
         // Center the SVG through science$()
         const elem = document.getElementById('mysvg')
         const panzoom = Panzoom(elem, {
