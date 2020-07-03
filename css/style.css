@@ -503,8 +503,12 @@ pre span {
     z-index:100;
     background-color: transparent;
   }
-
-rect,text {
+text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    fill: #c1c1c1;
+}
+rect {
     fill: #c1c1c1;
     stroke:#c1c1c1;
     width:30;
