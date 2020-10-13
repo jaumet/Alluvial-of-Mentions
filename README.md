@@ -1,5 +1,5 @@
 # Alluvial-of-Mentions
-A minimalist SVG diagrams galler-like using panzoom.js and jquery
+A minimalist SVG gallery using panzoom.js and jquery
 
 USAGE:
 Just put the code as it is under a web server.
