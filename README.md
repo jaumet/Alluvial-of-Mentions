@@ -12,4 +12,6 @@ This distribution contain several SVG diagrams about Peace Agreements database (
 
 You'll need some knowledge of HTML-CSS-JS in order to hack it for your use. The code I did is really short and it works quite smoothely. I hope you enjoy it!
 
+Credits: this tiny app uses jquery.js jquery-ui.js and panzoom.js. The first verson of the SVG alluvial was made with RAWgraphs. Thanks to all of them!
+
 Comments to jaume AT nualart.cat
